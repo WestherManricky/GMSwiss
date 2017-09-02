@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Pretas"
+            android:textColor="#0000FF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/branca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:text="Brancas"
+            android:textColor="#0000FF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:id="@+id/componentes">
+
+        <TextView
+            android:id="@+id/compA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="TESTE 001"
+            android:textSize="20sp" />
+
+        <Spinner 
+            android:id="@+id/campoPtA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+
+        <ImageView
+            android:id="@+id/scoreA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="atribuir"
+            android:src="@drawable/ic_shortcut_arrow_back" />
+
+        <TextView
+            android:id="@+id/x"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/scoreB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="atribuir"
+            android:src="@drawable/ic_shortcut_arrow_forward" />
+
+        <Spinner 
+            android:id="@+id/campoPtB"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/compB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:gravity="right"
+            android:text="TESTE 002"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

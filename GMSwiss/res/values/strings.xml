@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TelasChess</string>
+    <string name="junto">Masculino \n &amp; \n Feminino</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_niveis">Niveis</string>
+    <string name="title_activity_interno">Interno</string>
+    <string name="title_activity_equipes">Equipes</string>
+    <string name="title_activity_generos">Generos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gerar_duplas">GerarDuplas</string>
+    <string name="title_activity_disputa">Disputa</string>
+    <string name="title_activity_adicionar_nacional">AdicionarNacional</string>
+    <string name="title_activity_gerar">Gerar</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string-array name="pontuacao">
+        <item>0</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
